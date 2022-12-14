@@ -1,0 +1,17 @@
+{
+	"extends": "@tsconfig/react-native/tsconfig.json" /* Recommended React Native TSConfig base */,
+	"compilerOptions": {
+		"strict": true,
+		"baseUrl": ".",
+		"paths": {
+			"@assets/*": ["src/assets/*"],
+			"@components/*": ["src/components/*"],
+			"@config/*": ["src/config/*"],
+			"@navigation/*": ["src/navigation/*"],
+			"@screens/*": ["src/screens/*"],
+			"@utils/*": ["src/utils/*"],
+			"@hooks/*": ["src/utils/hooks/*"]
+		},
+		"typeRoots": ["src/types"]
+	}
+}
